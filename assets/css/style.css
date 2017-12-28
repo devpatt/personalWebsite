@@ -20,7 +20,7 @@ body {
     font-weight: 300;
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -485,7 +485,7 @@ textarea::-ms-input-placeholder
     border-top:2px solid #ecf0f2;
     border-bottom:2px solid #ecf0f2;
     padding:20px 0;
-} 
+}
 .home-content p{
     font-size:25px;
     margin-top:20px;
@@ -502,28 +502,28 @@ textarea::-ms-input-placeholder
     font-family: 'robotobold';
 }
 .about-content a{
-    margin-top:40px;
+    margin-top:10px;
 }
 
 /*For Features Section*/
 .features-bg{
     background:#10c6fc;
     color:#fff;
-    height: 270px;
+    /*height: 270px;
     width: 283px;
-	margin-bottom:20px;
+	margin-bottom:20px;*/
 }
 .features-item{
-    padding-top: 84px;
+    /*padding-top: 84px;*/
 }
 .features-item i{
     font-size:40px;
 }
 .features-item h6{
-    padding-top:35px;
+    /*padding-top:35px;*/
 }
 .features-item h6 a{
-    font-size: 18px;
+    font-size: 34px;
     text-transform: uppercase;
     color:#fff;
 }
@@ -662,6 +662,61 @@ textarea::-ms-input-placeholder
     height:650px;
 }
 
+
+
+
+
+
+/*For LINKS Section*/
+.links-bg{
+    background:#10c6fc;
+    color:#fff;
+    height: 200px;
+    width: 200px;
+	  margin-bottom:20px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+.links-item{
+}
+.links-item i{
+    font-size:80px;
+}
+.links-bg.linkedin{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 5%;
+    background:#0077b5;
+    transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -ms-transition:.3s ease-in-out;
+    -o-transition:.3s ease-in-out;
+}
+.links-bg.linkedin:hover{
+    background:#2d6879;
+}
+.links-bg.git{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 50%;
+    background:#24292e;
+    transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -ms-transition:.3s ease-in-out;
+    -o-transition:.3s ease-in-out;
+}
+.links-bg.git:hover{
+    background:#424951;
+}
+
+
+
+
+
 /*For Contact Section*/
 
 .contact{
@@ -720,7 +775,7 @@ textarea::-ms-input-placeholder
 }
 .main-footer .social a{
     color:#c3bec2;
-    font-size:15px;
+    font-size:40px;
 }
 .main-footer .social a:hover{
     color:#ff2b4a;
@@ -729,18 +784,17 @@ textarea::-ms-input-placeholder
     border-right:1px solid #c3bec2;
     padding:0 10px 0 10px;
 }
-.main-footer .social a i.dribbble{
+.main-footer .social a i.last{
     border-right:0;
 }
 .main-footer p{
     color:#c3bec2;
-    font-size:12px;	
+    font-size:12px;
 }
 
 
 
-
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -758,9 +812,9 @@ Modules - reusable parts of our design
     clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .home-main-content {
