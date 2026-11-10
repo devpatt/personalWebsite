@@ -41,17 +41,7 @@ export const experience = [
       'Participated in front-end web development primarily using JavaScript to maintain functionality following API updates',
       'Constructed responsive web designs using HTML, CSS, JavaScript, and jQuery',
     ],
-  },
-  {
-    role: 'Web Developer',
-    company: 'ITK Home',
-    dates: 'May 2017 - Aug 2017',
-    bullets: [
-      'Solely developed and launched the business website with online shopping capability.',
-      'Utilized HTML, CSS, Bootstrap, JavaScript, and jQuery to make modifications to Shopify webstore themes.',
-      'Launched various ad campaigns with Google Ad Words, and worked with Metroland Media to advertise on partner websites.',
-    ],
-  },
+  }
 ]
 
 export const education = {
@@ -59,6 +49,7 @@ export const education = {
   company: 'University of Waterloo',
   dates: '',
   bullets: [
-    'Pursuing my engineering degree with a focus on software engineering for application development.',
+    'Graduated with a Bachelor of Engineering in Computer Engineering with an option in Management Sciences.',
+    'Relevant Coursework: Data Structures & Algorithms, Distributed Computing, Computer Security, Computer Networks, Database Systems',
   ],
 }
